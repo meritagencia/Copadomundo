@@ -85,6 +85,13 @@ a {
   color: var(--yellow-400);
 }
 
+.old-price {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: currentColor;
+  opacity: 0.78;
+}
+
 .hero {
   position: relative;
   overflow: hidden;
