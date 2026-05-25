@@ -329,6 +329,25 @@ h3 {
   box-shadow: 0 12px 24px rgba(228, 38, 38, 0.22);
 }
 
+@media (min-width: 681px) {
+  .hero__media {
+    min-height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sticker-fan {
+    height: 470px;
+    transform: translateY(42px);
+  }
+
+  .sticker-card {
+    bottom: 54px;
+    width: min(37%, 190px);
+  }
+}
+
 .media-card {
   position: absolute;
   min-width: 170px;
